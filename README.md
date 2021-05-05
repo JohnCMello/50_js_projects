@@ -1,0 +1,1 @@
+## 50 small projects using JavaScript ##
