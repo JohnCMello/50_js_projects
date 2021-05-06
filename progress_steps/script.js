@@ -12,7 +12,6 @@ next.addEventListener('click', () => {
     currentActive = circles.length;
   }
   update()
-
 })
 
 prev.addEventListener('click', () => {
@@ -21,9 +20,7 @@ prev.addEventListener('click', () => {
   if (currentActive < 1) {
     currentActive = 1;
   }
-
   update()
-
 })
 
 function update() {
@@ -47,3 +44,7 @@ function update() {
     next.disabled = false;
   }
 }
+
+
+
+
