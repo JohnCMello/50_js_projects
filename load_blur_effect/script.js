@@ -6,15 +6,15 @@ let load = 0;
 let interval = setInterval(blurring, 30);
 
 function blurring() {
-  load++
+  load++;
 
   if (load > 99) {
     clearInterval(interval)
   }
 
   loadText.innerText = `${load}%`;
-  loadText.style.opacity = scale(load, 0, 100, 1, 0)
-  backgroung.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
+  loadText.style.opacity = scale(load, 0, 100, 1, 0);
+  backgroung.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
 
 }
 
