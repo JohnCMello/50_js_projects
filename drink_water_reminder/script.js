@@ -27,14 +27,14 @@ function updateBigCup() {
   const fullCups = document.querySelectorAll('.cup-small.full').length;
   const totalCups = smallCups.length;
 
-  hasNoFullCups(fullCups)
+  hasNoFullCups(fullCups, totalCups)
 
   isBigCupFull(fullCups, totalCups)
 
   areSevenCupsFull(fullCups, totalCups)
 }
 
-function hasNoFullCups(fullCups) {
+function hasNoFullCups(fullCups, totalCups) {
 
   if (fullCups === 0) {
     percentage.style.visibility = 'hidden';
