@@ -41,10 +41,9 @@ function showMovies(movies) {
       </div>
       <div class="overview">
         <h3>Overview</h3>
-         ${overview}
+        ${overview}
       </div>
     `
-
     main.appendChild(movieEl)
   })
 }
@@ -66,4 +65,3 @@ form.addEventListener('submit', (e) => {
     window.location.reload()
   }
 })
-
