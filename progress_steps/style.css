@@ -4,6 +4,7 @@
   --line-border-empty: #ffefc6;
   --line-border-fill: #f4c449;
   --bg-numbers:#fffaec;
+  --text-color: #211d12;
 }
 * {
   box-sizing: border-box;
@@ -60,7 +61,7 @@ body {
 
 .circle {
   background-color: var(--bg-numbers);
-  color: #211d12;
+  color: var(--text-color);
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -77,7 +78,7 @@ body {
 
 .btn {
   background-color:var(--line-border-fill);
-  color: #211d12;
+  color: var(--text-color);
   border: 0;
   border-radius: 6px;
   cursor: pointer;
