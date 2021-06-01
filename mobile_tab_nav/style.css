@@ -55,7 +55,7 @@ nav ul {
   height: 60px;  
 }
 
-nav li {
+.item {
   color: #f4f1de;
   cursor: pointer;
   flex: 1;
@@ -63,13 +63,14 @@ nav li {
   text-align: center;
 }
 
-nav ul li p {
+.item p {
   font-size: 12px;
   margin: 2px 0;
 }
 
-nav ul li:hover,
-nav ul li.active {
+.item:hover,
+.item.active {
   color: #bc6c25;
+  background-color: #355070;
 }
 
