@@ -1,0 +1,106 @@
+@import url('http>//fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkgray;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.title {
+  font-size: 18px;  
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #1d3557;
+  color: #f1faee;
+  padding: 30px 20px 10px;
+  height: 160px;
+}
+
+.header input {
+  background-color:rgba(0, 0, 0, 0.3);
+  color: #f1faee;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 3px 10px;
+  width: 100%;
+  transition: .2s ease-out;
+}
+
+.header input:focus {
+  transition: .2s ease-in;
+  padding: 10px 10px;
+  margin-bottom: 0;
+  outline: none;
+}
+
+.user-list {
+  background-color: #f1faee;
+  color: #121e2e;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
+
+.user-list img {
+  border: 4px solid rgba(29, 53, 87, 0.7) ;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.user-list .user-info {
+  margin-left: 15px;
+  height: 50px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 4px;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
