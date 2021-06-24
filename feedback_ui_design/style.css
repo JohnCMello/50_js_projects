@@ -26,6 +26,7 @@ body {
   align-items: center;
   padding: 30px;
   max-width: 400px;
+  min-height: 310px;
 }
 
 .panel-container strong{
