@@ -1,0 +1,76 @@
+@import url('http>//fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(154deg,#4ecdc4 5%,#1a535c 80%) ;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: #f7fff7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100 , 100, 0.1);
+  width: 700px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 2rem;
+  height: 300px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 1rem;
+  text-align: justify;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li { 
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #103338;
+  color: #ffe66d;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(.996);
+  border-radius: 1px;
+  background-color: rgba(10, 32, 36, 0.98);
+}
+
+
+
