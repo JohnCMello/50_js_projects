@@ -12,9 +12,9 @@ getMovies(API_URL)
 
 async function getMovies(url) {
   const res = await fetch(url);
-  const data = await res.json();
+  const { results } = await res.json();
 
-  showMovies(data.results)
+  showMovies(results)
 }
 
 function showMovies(movies) {
